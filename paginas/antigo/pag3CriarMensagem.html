@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/css-pag3.css">
+    <script src="../jQuery/jquery.js"></script>
+    <script src="../js/funcoesPag3.js"></script>
+
+    <meta charset="utf-8" />
+</head>
+
+<body>
+<header class="topo">
+    <table>
+        <tr>
+            <td><img src="../imagens/logomarca.png" class="img-fluid mx-auto d-block mt-4" alt="Logo HalaMail"></td>
+            <td><h1 id="nHalaMail"><u>HalaMail</u></h1></td>
+        </tr>
+    </table>
+    <div id="usuario"></div>
+</header>
+<table>
+        <tr id="PrimeiraTR">
+            <td><button class="opcoes" value="entrada">||||</button></td>
+            <td><input type="text" placeholder="Pesquisar..." size="50px"/></td>
+        </tr>
+        <tr>
+            <td><button id="bNovaMsg">+ NOVA MENSAGEM</button></td>
+            <td colspan="3"><h1>Caixa de entrada</h1></td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <table class="Tabelado">
+                        <tr>
+                            <td><button id="bFavoritos">|||| Favoritos</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bEntrada">|||| Caixa de Entrada</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bEnviados">|||| Caixa de Enviados</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bSpam">|||| Spam</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bRascunho">|||| Rascunho</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bLixeira">|||| Lixeira</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div id="carregando"></div>
+                <table border="1px">
+                        <tr>
+                            <td>Para:</td>
+                            <td><input type="text" id="tPara" placeholder="e-mail"></td>
+                        </tr>
+                        <tr>
+                            <td>Título:</td>
+                            <td><input type="text" id="tTitulo" placeholder="Título"></td>
+                        </tr>
+                        <tr>
+                            <td>Mensagem:</td>
+                            <td><textarea type="text" class="texto" id="tMensagem" placeholder="Mensagem"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bEnviar">Enviar!</button></td>
+                        </tr>
+                    </table>
+            </td>
+        </tr>
+
+</table>
+
+    
+</body>
+</html>

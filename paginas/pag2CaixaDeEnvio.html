@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/layoutTabelas.css">
+    <script src="../jQuery/biblioteca.js"></script>
+    <script src="../js/funcoesPag1.js"></script>
+
+    <meta charset="utf-8" />
+</head>
+
+<body>
+<header class="topo">
+    <table>
+        <tr>
+            <td><img src="../imagens/logomarca.png" class="img-fluid mx-auto d-block mt-4" alt="Logo HalaMail"></td>
+            <td><h1 id="nHalaMail"><u>HalaMail</u></h1></td>
+        </tr>
+    </table>
+    <div id="usuario"></div>
+</header>
+<table border="1px" align="center">
+        <tr id="PrimeiraTR">
+            <td><button class="opcoes" value="saida">||||</button></td>
+            <td><input type="text" placeholder="Pesquisar..." size="50px"/></td>
+        </tr>
+        <tr>
+            <td><button id="bNovaMsg">+ NOVA MENSAGEM</button></td>
+            <td colspan="3"><h1>CAIXA DE SAIDA</h1></td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <table class="Tabelado" border="1px">
+                        <tr>
+                            <td><button id="bFavoritos">|||| Favoritos</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bEntrada">|||| Caixa de Entrada</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bEnviados">|||| Caixa de Saida</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bSpam">|||| Spam</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bRascunho">|||| Rascunho</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="bLixeira">|||| Lixeira</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div id="carregando"></div>
+                <div id="divCaixa"></div>
+            </td>
+        </tr>
+
+</table>
+
+    
+</body>
+</html>

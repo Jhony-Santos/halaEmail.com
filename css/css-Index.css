@@ -1,0 +1,47 @@
+.botao1 {
+    background-color:white;
+    color:green;
+}
+button:hover {
+    background-color:green;
+    color:white;
+}
+.botao2{
+    background-color:greenyellow;
+    color: indigo;
+}
+
+.div1 {
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff);
+    background: linear-gradient(to left, #00c6ff , #0072ff);
+}
+#divNome{
+    font-size: 70px;
+    font-style: Georgia;
+    color: orange;
+}
+.div2 {
+    border-width: 3px;
+    border-width: medium;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 10px;
+    
+}
+input {
+    padding: 2px;
+    border-radius:5px;
+    border: solid orange;
+    width: 400px;
+    height: 30px;
+    font-size: large;
+
+}
+button{
+    border-radius: 4px;
+    height: 50px;
+    width: 160px;
+    font-size: medium;
+}
